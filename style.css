@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Sailec-Medium.ttf);
+}
+
+body {
+  background-color: rgb(228, 230, 228);
+  font-family: myFirstFont;
+  width: 100%;
+}
+
+.divBox {
+  position: absolute;
+  top: 340px;
+  left: 520px;
+  margin-top: 50px;
+}
+
+
+.iphone {
+  position: absolute;
+  top: 0px;
+  left: 28%;
+  background-image: url("./images/iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 670px;
+  height: 360px;
+}
+
+img {
+  position: absolute;
+  top: 19px;
+  left: 470px;
+  width: 580px;
+  height: 290px;
+  object-fit: cover;
+  object-position: 100% 0;
+  background-repeat: no-repeat;
+  border-radius: 37px;
+}
